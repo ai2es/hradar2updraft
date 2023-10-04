@@ -1,8 +1,8 @@
-name: ai2es
+name: hradar2updraft
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python
   - numpy
   - scipy
   - matplotlib
@@ -16,13 +16,8 @@ dependencies:
   - distributed
   - pip
   - pyproj
-  - jupyter
-  - jupyterlab
   - cartopy
   - tqdm
-  - sphinx
-  - numba
-  - cython
   - pip:
     - tensorflow
     - tensorflow-probability
